@@ -26,56 +26,56 @@ const posts = [
         title: "Brownie Cookies",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/cookies1.jpg",
+        bgImg: "images/cookies1.jpg",
         label: "Cookies"
     },
     {
         title: "Caramel Cookies",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/cookies2.jpg",
+        bgImg: "images/cookies2.jpg",
         label: "Cookies"
     },
     {
         title: "Healthy Pizza",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/veggie-pizza.jpg",
+        bgImg: "images/veggie-pizza.jpg",
         label: "Pizza"
     },
     {
         title: "Alfredo Pasta",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/alfredo-pasta.jpg",
+        bgImg: "images/alfredo-pasta.jpg",
         label: "pasta"
     },
     {
         title: "Pancake Breakfast",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/pancakes-breakfast.jpg",
+        bgImg: "images/pancakes-breakfast.jpg",
         label: "pancakes"
     },
     {
         title: "Tiramisu",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/dessert.jpg",
+        bgImg: "images/dessert.jpg",
         label: "Dessert"
     },
     {
         title: "Healthy Fries",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/fries.jpg",
+        bgImg: "images/fries.jpg",
         label: "fries"
     },
     {
         title: "Fruit Salad",
         desc: "lorem",
         link: "hhtps://google.com/",
-        bgImg: "/images/fruity-salad.jpg",
+        bgImg: "images/fruity-salad.jpg",
         label: "Salad"
     }
 ];
@@ -174,22 +174,22 @@ if(idDarkMode){
     body.classList.add('dark');
     darkmode.checked = true;
     //logoImage.src = '/images/favicon.jpg';
-    logoImage2.src = '/images/favicon.jpg';
+    logoImage2.src = 'images/favicon.jpg';
 } else{
     //logoImage.src = "/images/logo.jpg";
-    logoImage2.src = '/images/logo.jpg';
+    logoImage2.src = 'images/logo.jpg';
 }
 
 darkmode.addEventListener('change', () => {
     if(darkmode.checked){
         body.classList.add('dark');
         //logoImage.src = "/images/favicon.jpg";
-        logoImage2.src = '/images/favicon.jpg';
+        logoImage2.src = 'images/favicon.jpg';
         localStorage.setItem('darkMode', 'true');
     } else{
         body.classList.remove('dark');
         //logoImage.src = "/images/logo.jpg";
-        logoImage2.src = '/images/logo.jpg';
+        logoImage2.src = 'images/logo.jpg';
         localStorage.setItem('darkMode', 'flase');
     }
 });
