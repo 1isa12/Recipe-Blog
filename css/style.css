@@ -354,7 +354,7 @@ header{
     position: relative;
     width: 100%;
     height: auto;
-    background: url("/images/cookies1.jpg") no-repeat center center/cover;
+    background: url("images/cookies1.jpg") no-repeat center center/cover;
     z-index: 1;
     transition: 0.3s ease;
 }
@@ -1063,7 +1063,7 @@ header{
 /* gfbg */
 .gfbg{
     position: relative;
-    background-image: url("/images/background.jpg");
+    background-image: url("images/background.jpg");
     width: 100%;
     height: 45vh;
     margin-top: 8rem;
@@ -1442,7 +1442,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("/images/Aesthetic\ Blank\ Background.jpeg");
+    background: url("images/Aesthetic\ Blank\ Background.jpeg");
 }
 
 .subscribeinfo{
